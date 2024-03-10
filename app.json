@@ -4,10 +4,10 @@
     "slug": "ArtilleryGun",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Rk.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/Rkk.png",
+      "image": "./assets/Rk.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Rkk.png",
+        "foregroundImage": "./assets/Rk.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aleksandrlis.ArtilleryGun"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "37590408-9011-46c8-bcf3-3eeee5d9266b"
+      }
     }
   }
 }
